@@ -1,0 +1,81 @@
+﻿@page "/register"
+@using Pocky.WASM.Identity
+@using Pocky.WASM.Models
+@inject IAccountManagement AccountManagement
+@inject NavigationManager Navigation
+
+<div class="col-12 col-md-5 col-lg-4">
+	<div class="card card-shadow border-0 rounded-3">
+		<div class="card-body p-4">
+			<div class="row g-6">
+				<div class="col-12">
+					<div class="text-center">
+						<h3 class="fw-bold fs-5 mb-2">Register</h3>
+						<p class="text-muted">Create your account</p>
+					</div>
+				</div>
+			</div>
+			<EditForm Model="Model" OnValidSubmit="Submit">
+				<DataAnnotationsValidator></DataAnnotationsValidator>
+				<div class="form-floating mb-4">
+					<InputText @bind-Value="Model!.Email" type="email"
+							   class="form-control rounded-2 border-0 bg-grey" id="email" placeholder="">
+
+					</InputText>
+					<label for="email">Email</label>
+					<ValidationMessage For="() => Model.Email"></ValidationMessage>
+				</div>
+				<div class="form-floating mb-4">
+					<InputText @bind-Value="Model!.Password" type="password"
+							   class="form-control rounded-2 border-0 bg-grey" id="password" placeholder="">
+
+					</InputText>
+					<label for="password">Password</label>
+					<ValidationMessage For="() => Model.Password"></ValidationMessage>
+				</div>
+				<div class="form-floating mb-4">
+					<InputText @bind-Value="Model!.ConfirmPassword" type="password"
+							   class="form-control rounded-2 border-0 bg-grey" id="confirmPassword" placeholder="">
+
+					</InputText>
+					<label for="confirmPassword">Password</label>
+					<ValidationMessage For="() => Model.ConfirmPassword"></ValidationMessage>
+				</div>
+				<div class="col-12 @(errorList.Any() ? string.Empty :"d-none")">
+					<div class="alert alert-danger">
+						@foreach (var error in errorList)
+						{
+							<span>@error</span>
+						}
+					</div>
+				</div>
+				<button class="btn btn-primary btn-block fs-6 fw-bolder py-3 w-100" type="submit" disabled="@loading">Sign Up</button>
+			</EditForm>
+		</div>
+	</div>
+	<div class="text-center mt-4">
+		<p class="text-muted">You have an account ? <NavLink href="/login">Sign in</NavLink></p>
+	</div>
+</div>
+@code {
+	[SupplyParameterFromForm]
+	private RegisterModel? Model { get; set; }
+	protected override void OnInitialized()
+		=> Model ??= new();
+	private string[] errorList = [];
+	private bool loading = false;
+	private async Task Submit()
+	{
+		loading = true;
+		var result = await AccountManagement.RegisterAsync(Model!.Email, Model!.Password);
+		if (result.Succeeded)
+		{
+			Navigation.NavigateTo("/login");
+		}
+		else
+		{
+			errorList = result.ErrorList;
+		}
+		loading = false;
+	}
+}

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Pocky.Api.props" />
+</Project>

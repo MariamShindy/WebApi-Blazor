@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pocky.Api", "Pocky.Api\Pocky.Api.csproj", "{49471A9F-2A35-4EF2-9933-16E1DB914894}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pocky.WASM", "Pocky.WASM\Pocky.WASM.csproj", "{4F035645-9117-4B17-AA92-6C8100954BDA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{49471A9F-2A35-4EF2-9933-16E1DB914894}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49471A9F-2A35-4EF2-9933-16E1DB914894}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49471A9F-2A35-4EF2-9933-16E1DB914894}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49471A9F-2A35-4EF2-9933-16E1DB914894}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F035645-9117-4B17-AA92-6C8100954BDA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F035645-9117-4B17-AA92-6C8100954BDA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F035645-9117-4B17-AA92-6C8100954BDA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F035645-9117-4B17-AA92-6C8100954BDA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {96EB79F7-7174-491F-B683-378CAE9B243C}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\Route\\Tasks\\Pocky\\Pocky.WASM\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "D:\\Route\\Tasks\\Pocky\\Pocky.WASM\\obj\\Debug\\net8.0\\compressed\\ssx5fu7b8z.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "D:\\Route\\Tasks\\Pocky\\Pocky.WASM\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "D:\\Route\\Tasks\\Pocky\\Pocky.WASM\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "D:\\Route\\Tasks\\Pocky\\Pocky.WASM\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Pocky.WASM.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Pocky.WASM.props",
+      "PackagePath": "build\\Pocky.WASM.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Pocky.WASM.props",
+      "PackagePath": "buildMultiTargeting\\Pocky.WASM.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Pocky.WASM.props",
+      "PackagePath": "buildTransitive\\Pocky.WASM.props"
+    }
+  ],
+  "ElementsToRemove": []
+}
