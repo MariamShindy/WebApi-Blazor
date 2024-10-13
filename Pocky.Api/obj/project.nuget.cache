@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qzcOXt7+EaJO1Da/wQlUW1aMf85j+9uDPVagkHQRUb7XG5Ca5Avtj5xGdpq/5eoh8tHpe8wbOJl+mJeD4k5fTg==",
+  "dgSpecHash": "p0Bhk509FCCJVz5g/eqrYORmir/OYeIJab2DRS+gCO8xQJRI+/0Ub92jT+CMJHmRWvKPKm1fVSexSPDacxFxBA==",
   "success": true,
-  "projectFilePath": "D:\\Route\\Tasks\\Pocky\\Pocky.Api\\Pocky.Api.csproj",
+  "projectFilePath": "D:\\Route\\Tasks\\Pocky\\WebApi-Blazor\\Pocky.Api\\Pocky.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

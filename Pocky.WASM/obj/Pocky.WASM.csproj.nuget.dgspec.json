@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Route\\Tasks\\Pocky\\Pocky.WASM\\Pocky.WASM.csproj": {}
+    "D:\\Route\\Tasks\\Pocky\\WebApi-Blazor\\Pocky.WASM\\Pocky.WASM.csproj": {}
   },
   "projects": {
-    "D:\\Route\\Tasks\\Pocky\\Pocky.WASM\\Pocky.WASM.csproj": {
+    "D:\\Route\\Tasks\\Pocky\\WebApi-Blazor\\Pocky.WASM\\Pocky.WASM.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Route\\Tasks\\Pocky\\Pocky.WASM\\Pocky.WASM.csproj",
+        "projectUniqueName": "D:\\Route\\Tasks\\Pocky\\WebApi-Blazor\\Pocky.WASM\\Pocky.WASM.csproj",
         "projectName": "Pocky.WASM",
-        "projectPath": "D:\\Route\\Tasks\\Pocky\\Pocky.WASM\\Pocky.WASM.csproj",
+        "projectPath": "D:\\Route\\Tasks\\Pocky\\WebApi-Blazor\\Pocky.WASM\\Pocky.WASM.csproj",
         "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\Route\\Tasks\\Pocky\\Pocky.WASM\\obj\\",
+        "outputPath": "D:\\Route\\Tasks\\Pocky\\WebApi-Blazor\\Pocky.WASM\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -33,6 +33,14 @@
 					<label for="password">Password</label>
 					<ValidationMessage For="() => loginModel.Password"></ValidationMessage>
 				</div>
+				@if (isNew)
+				{
+					<div class="col-12">
+						<div class="alert alert-success">
+							<span>User created successfully!!</span>
+						</div>
+					</div>
+				}
 				<div class="col-12 @(errorList.Any() ? string.Empty :"d-none")">
 					<div class="alert alert-danger">
 						@foreach(var error in errorList)
@@ -52,6 +60,8 @@
 @code {
 	[SupplyParameterFromForm]
 	private LoginModel? loginModel { get; set; }
+	[SupplyParameterFromQuery(Name ="IsNew")]
+	private bool isNew { get; set; }
 	protected override void OnInitialized()
 		=> loginModel ??= new();
 	private string[] errorList = [];

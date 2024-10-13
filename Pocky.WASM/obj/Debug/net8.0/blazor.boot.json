@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Pocky.WASM",
   "resources": {
-    "hash": "sha256-Pc5INRgzyPfLswnWXKg+k4y3027yjGpKPJM1dlXXB3c=",
+    "hash": "sha256-sbTlFVYofP3Ce6wIdj1B39F0l7H8aRLrh4bojZ09MX8=",
     "jsModuleNative": {
       "dotnet.native.8.0.0.io52xv999f.js": "sha256-LjLDIz9+J7uuiwMlQ4HbNx2BnSpphOtO2MwkoI28vdI="
     },
@@ -213,10 +213,10 @@
       "mscorlib.wasm": "sha256-cDuLeL3OCtVtiid/dyex1MVgbuzDSRwZxKzuP2Dp4mg=",
       "netstandard.wasm": "sha256-A0h86SDieTMoU/wU2JTszWCsUmMuguDcbap0b0BzsmI=",
       "System.Private.CoreLib.wasm": "sha256-/0DNIm/T0C07X7Tuz5uR8JvVCoAfEE2MnfPUSjyS9xc=",
-      "Pocky.WASM.wasm": "sha256-IH9rIqTbN4VeINnHFcW0jXAHsmHk9M8vQh2Y1eqH0+Y="
+      "Pocky.WASM.wasm": "sha256-HVaIUzM6OkNAXlbBmshPr+aZ/7K/F/nSl+LHLRVTPBI="
     },
     "pdb": {
-      "Pocky.WASM.pdb": "sha256-rF5vgioHzNkvziKsRBg5PFH0daqjjKp4teuxKM0wPc8="
+      "Pocky.WASM.pdb": "sha256-I9QkmRQlWhRgMGBNY7NPQHayDcS0d5JqrukeC+FqB6w="
     }
   },
   "cacheBootResources": true,

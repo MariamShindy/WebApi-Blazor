@@ -4702,11 +4702,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Route\\Tasks\\Pocky\\Pocky.Api\\Pocky.Api.csproj",
+      "projectUniqueName": "D:\\Route\\Tasks\\Pocky\\WebApi-Blazor\\Pocky.Api\\Pocky.Api.csproj",
       "projectName": "Pocky.Api",
-      "projectPath": "D:\\Route\\Tasks\\Pocky\\Pocky.Api\\Pocky.Api.csproj",
+      "projectPath": "D:\\Route\\Tasks\\Pocky\\WebApi-Blazor\\Pocky.Api\\Pocky.Api.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "D:\\Route\\Tasks\\Pocky\\Pocky.Api\\obj\\",
+      "outputPath": "D:\\Route\\Tasks\\Pocky\\WebApi-Blazor\\Pocky.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",

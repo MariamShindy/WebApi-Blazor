@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Vp6ZKkwFxMJFK6LwWTiBmCadD5f3tq438T7wcB7u3OkYVHER+stttuc1PeDbt2j+ERlu0s3dG2lSXVszPtj8AQ==",
+  "dgSpecHash": "XNgN+l6k5NPpPIk++qTeloH1YjLiKBAZF0979Yc5Pq5K68N8mhJbk7mdvjGTm5Iu4LlHTuBwORVGb2H1ZAFi8A==",
   "success": true,
-  "projectFilePath": "D:\\Route\\Tasks\\Pocky\\Pocky.WASM\\Pocky.WASM.csproj",
+  "projectFilePath": "D:\\Route\\Tasks\\Pocky\\WebApi-Blazor\\Pocky.WASM\\Pocky.WASM.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.aspnetcore.authorization\\8.0.8\\microsoft.aspnetcore.authorization.8.0.8.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\microsoft.aspnetcore.components\\8.0.8\\microsoft.aspnetcore.components.8.0.8.nupkg.sha512",

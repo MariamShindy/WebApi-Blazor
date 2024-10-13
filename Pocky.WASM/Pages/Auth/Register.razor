@@ -70,7 +70,7 @@
 		var result = await AccountManagement.RegisterAsync(Model!.Email, Model!.Password);
 		if (result.Succeeded)
 		{
-			Navigation.NavigateTo("/login");
+			Navigation.NavigateTo("/login?isNew=true");
 		}
 		else
 		{
